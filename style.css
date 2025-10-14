@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins',sans-serif;
+}
+.navbar{
+    background-color:gray;
+    padding: 10px;
+
+}
+.container{
+    padding: 10px;
+}
+.book-cont{
+    padding: 10px;
+    width:25%;
+    background-color: rgb(37, 33, 33);
+    color: white;
+    margin: 30px;
+    display:inline-block;
+    vertical-align: top;
+}
+.book-cont h2{
+    color: gray;
+}
+.book-cont button{
+    background-color: gray;
+    color:black;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 10px;
+
+}
+.add_btn{
+
+    background-color: gray;
+    color: black;
+    border-radius: 100%;
+    padding: 10px;
+    font-size: 40px;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+
+}
+.popup-overlay{
+    background-color: black;
+    opacity: 0.8;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: none;
+
+}
+.popup-box{
+    background-color: gray;
+    
+    width: 40%;
+    padding: 40px;
+    border-radius: 10px;
+    position: absolute;
+    left: 20%;
+    top: 20%;
+    z-index: 2;
+    display: none;
+}
+.popup-box input{
+    background: transparent;
+    border: none;
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+    font-size: 20px;
+    border-bottom: solid black 2px;
+    
+
+
+}
+.popup-box textarea{
+      background: transparent;
+    border: none;
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+    font-size: 20px;
+    border: solid black 2px;
+}
+.popup-box input::placeholder, textarea::placeholder{
+    color: rgb(218, 208, 208);
+}
+.popup-box button{
+    background-color: black;
+    padding: 5px;
+    color: grey;
+    border: none;
+    margin: 5px;
+}
+.popup-box input:focus , textarea:focus{
+    outline: none;
